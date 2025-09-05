@@ -9,20 +9,29 @@
 ';
 
 /* append your custom style below */
-
-.video-320 {
-  max-width: 320px;     /* never exceed 320px */
-  width: 100%;          /* shrink on small screens */
-  margin: 0 auto;       /* center (optional) */
+/* Shared video wrapper styles */
+.video-320,
+.video-480,
+.video-640 {
+  width: 100%;
+  margin: 0 auto;
 }
 
-.video-320 video {
+.video-320 { max-width: 320px; }
+.video-480 { max-width: 480px; }
+.video-640 { max-width: 640px; }
+
+/* Shared video tag styles */
+.video-320 video,
+.video-480 video,
+.video-640 video {
   display: block;
   width: 100%;
-  height: auto;         /* keep aspect ratio */
+  height: auto; /* keep aspect ratio */
 }
 
+/* Non-interactive video */
 .video-nopause video {
-  pointer-events: none;   /* disables clicking (no pause on click, no context menu) */
-  user-select: none;      /* prevent text/image selection */
+  pointer-events: none;
+  user-select: none;
 }
