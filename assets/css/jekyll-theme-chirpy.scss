@@ -9,3 +9,20 @@
 ';
 
 /* append your custom style below */
+
+.video-320 {
+  max-width: 320px;     /* never exceed 320px */
+  width: 100%;          /* shrink on small screens */
+  margin: 0 auto;       /* center (optional) */
+}
+
+.video-320 video {
+  display: block;
+  width: 100%;
+  height: auto;         /* keep aspect ratio */
+}
+
+.video-nopause video {
+  pointer-events: none;   /* disables clicking (no pause on click, no context menu) */
+  user-select: none;      /* prevent text/image selection */
+}
