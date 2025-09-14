@@ -14,12 +14,12 @@ timezone: Europe/Istanbul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Harvested Game Development Blog # the main title
+title: Tarnish Game Development Blog # the main title
 
-tagline: Development Insights & Updates on the Survival Game Harvested # it will display as the subtitle
+tagline: Development Insights & Updates on the Survival Game Tarnish # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Follow the development journey of Harvested, a survival multiplayer game. 
+  Follow the development journey of Tarnish, a survival multiplayer game. 
   Get updates on features, design, mechanics, and behind-the-scenes insights 
   from the developers and share your ideas to shape the development.
 
@@ -100,7 +100,7 @@ theme_mode: # [light | dark]
 cdn: https://tarnish-public-f57dc161-afb4-4823-abdd-425f1c3e9418.s3.eu-central-1.amazonaws.com/media
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /images/harvested-logo.png
+avatar: /images/logo.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
